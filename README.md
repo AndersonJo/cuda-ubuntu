@@ -50,6 +50,14 @@ To later allow upgrades, you can remove the holds.
 sudo apt-mark unhold libcudnn7 libcudnn7-dev
 ```
 
+Add the following on .bashrc. 
+
+```
+# CUDA & CUDNN
+export PATH=$PATH:/usr/local/cuda/bin:/usr/local/cuda/include
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/lib:/usr/local/lib:/usr/local/cuda/extras/CUPTI/lib64/
+```
+
 # Installing TensorFlow
 
 ```
