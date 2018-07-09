@@ -50,7 +50,7 @@ To later allow upgrades, you can remove the holds.
 sudo apt-mark unhold libcudnn7 libcudnn7-dev
 ```
 
-Add the following on .bashrc. 
+Add the following on `.bashrc`. 
 
 ```
 # CUDA & CUDNN
